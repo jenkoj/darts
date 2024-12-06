@@ -16,8 +16,8 @@ except ModuleNotFoundError:
     LightGBMModel = NotImportedModule(module_name="LightGBM", warn=False)
 
 # Forecasting
-from darts.models.forecasting.arima import ARIMA
-from darts.models.forecasting.auto_arima import AutoARIMA
+# from darts.models.forecasting.arima import ARIMA
+# from darts.models.forecasting.auto_arima import AutoARIMA
 from darts.models.forecasting.baselines import (
     NaiveDrift,
     NaiveMean,
@@ -31,7 +31,7 @@ from darts.models.forecasting.linear_regression_model import LinearRegressionMod
 from darts.models.forecasting.random_forest import RandomForest
 from darts.models.forecasting.regression_ensemble_model import RegressionEnsembleModel
 from darts.models.forecasting.regression_model import RegressionModel
-from darts.models.forecasting.tbats_model import BATS, TBATS
+# from darts.models.forecasting.tbats_model import BATS, TBATS
 from darts.models.forecasting.theta import FourTheta, Theta
 from darts.models.forecasting.varima import VARIMA
 
